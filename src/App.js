@@ -11,6 +11,7 @@ import { CommunityContextProvider } from "./CommunityContext";
 
 axios.defaults.baseURL = "http://localhost:4000";
 // axios.defaults.baseURL = "https://reddit-cloned-server.herokuapp.com";
+// Hello world
 
 function App() {
   const [showAuthModal, setShowAuthModal] = useState(false);
