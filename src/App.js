@@ -9,8 +9,8 @@ import PostFormModalContext from "./PostFormModalContext";
 import RedirectContext from "./RedirectContext";
 import { CommunityContextProvider } from "./CommunityContext";
 
-// axios.defaults.baseURL = "http://localhost:4000";
-axios.defaults.baseURL = "https://reddit-cloned-server.herokuapp.com";
+axios.defaults.baseURL = "http://localhost:4000";
+// axios.defaults.baseURL = "https://reddit-cloned-server.herokuapp.com";
 
 function App() {
   const [showAuthModal, setShowAuthModal] = useState(false);
